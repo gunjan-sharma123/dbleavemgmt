@@ -1,4 +1,4 @@
-using { app.schema} from '../db/schema';
+using { app.schema } from '../db/schema';
 
 service LeaveManagementService @(requires: 'authenticated-user') {
 
